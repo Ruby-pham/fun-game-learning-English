@@ -5,17 +5,20 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    background-color: gray;
-}
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
 
+}
 #wrapper {
     background-image: url("https://tse3.mm.bing.net/th?id=OIP.zHYdpDAmzNm9p4L1Zw79yAHaEK&pid=Api&P=0&h=180");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border: 1px solid black;
-    width: 40%;
-    height: 80%;
+    width: 70%;
+    /*height: 500px;*/
+    /*height: 100%;*/
     margin: auto;
     margin-top: 10px;
 }
@@ -70,6 +73,7 @@ body {
     padding: 5px;
     background-color:white;
     border: 2px solid #a6d785;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 #image{
     width: 60%;
